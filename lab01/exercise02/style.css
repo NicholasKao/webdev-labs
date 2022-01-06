@@ -24,9 +24,11 @@ section {
     padding-bottom: 20px;
 }
 
-img {
+img, iframe, video {
     width: 100%;
+    min-height: 300px;
 }
+
 
 h2, p, button {
     margin-left: 20px;
