@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
 body * {
     box-sizing: border-box;
 }
@@ -29,6 +31,10 @@ img {
 h2, p, button {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+h2 {
+    font-family: 'The Nautigal';
 }
 
 
