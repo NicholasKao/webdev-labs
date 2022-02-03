@@ -112,3 +112,23 @@ button {
 .high-contrast button {
     color: black;
 }
+
+.dyslexia-mode {
+/* 
+Narrow the line width (lines that are too long in the horizontal direction are hard to read) */
+    letter-spacing: 0.35ch;
+    word-spacing: 1.225ch;
+    font-variant-ligatures: None; 
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.dyslexia-mode .content {
+   line-height: 2.0;
+   max-width: 80%;
+   align-self: center;
+}
+
+.dyslexia-mode .content p {
+   margin-top: 3.5em;
+}
